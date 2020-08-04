@@ -15,6 +15,7 @@ class Main():
         except Exception as e:
             print(f"[ERROR] > {e}")
         option = int(input("Option > "))
+        
         if (option == 1):
             amount = float(input("Amount to deposit $"))
             if (amount > 0):
